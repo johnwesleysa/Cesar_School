@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 mesMaiorVenda = ""
 valorMaiorVenda = 0.0
 mesMenorVenda = ""

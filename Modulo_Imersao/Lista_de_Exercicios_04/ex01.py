@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 idade = 0
 somaIdade = 0
 qtdMaiorVinteCinco = 0

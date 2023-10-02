@@ -1,6 +1,8 @@
 qtdBanho = 0
 qtdTosa = 0
 qtdBanho_Tosa = 0
+#Aluno: John Wesley Santos Alencar
+
 qtdOutros = 0
 
 

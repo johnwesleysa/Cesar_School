@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 produto = ""
 qtd_produto = 0
 

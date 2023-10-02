@@ -20,6 +20,7 @@ soma_altura = 0.0
 soma_peso = 0.0
 
 quantidade_alunos = int(input("Quantos clientes há na academia? "))
+#Aluno: John Wesley Santos Alencar
 
 for i in range(quantidade_alunos):
     codigo = int(input("Digite o seu código de aluno: "))

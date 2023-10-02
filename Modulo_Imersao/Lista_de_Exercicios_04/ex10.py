@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 num1 = int(input("Número 1:"))
 num2 = int(input("Número 2:"))
 print(num1)

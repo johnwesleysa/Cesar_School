@@ -1,4 +1,6 @@
 soma_desconto = 0.0
+#Aluno: John Wesley Santos Alencar
+
 qtd_aptos_desconto = 0
 
 

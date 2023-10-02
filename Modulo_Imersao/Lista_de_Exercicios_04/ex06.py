@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 maiorNumPar = 0
 numPar = 0
 

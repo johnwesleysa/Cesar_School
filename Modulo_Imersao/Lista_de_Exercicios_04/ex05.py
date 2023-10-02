@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 maiorAltura = 0
 nomeMaiorAltura = ""
 idadeMaiorAltura = 0

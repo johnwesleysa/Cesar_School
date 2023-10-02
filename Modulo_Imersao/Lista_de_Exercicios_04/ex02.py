@@ -1,3 +1,5 @@
+#Aluno: John Wesley Santos Alencar
+
 nota = 0
 soma = 0
 media = 0.0
