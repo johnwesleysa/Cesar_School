@@ -12,7 +12,7 @@ for i in range(12):
 
 #media anual de temp
 media_temperatura_anual = sum(media_temperatura_mensal) / 12
-print(f"Média Anual de Temperaturas: {media_temperatura_anual}")
+print(f"\nMédia Anual de Temperaturas: {media_temperatura_anual}")
 
 print("Meses com temperaturas acima da média:")
 for i in range(len(media_temperatura_mensal)):
