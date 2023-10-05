@@ -1,20 +1,12 @@
-#Alunos: Rogerio Fernandes, John Wesley, Matheus Antônio
+"""Faça um programa que peça ao usuário para inserir:
+○ uma frase
+○ uma palavra que está contida na frase
+○ outra palavra que ele deseja substituir no lugar da primeira palavra inserida.
+Por fim, o programa exibe a frase modificada, toda em letra maiúscula."""
 
-nota1 = 0.0
-nota2 = 0.0
-vetorMedia = []
-qtdMaiorMedia = 0
+frase = input("Digite uma frase: ")
+palavra_existente = input("Digite uma palavra existente na frase: ")
+outra_palavra = input("Palavra Substituta: ")
 
-for i in range(5):
-    nota1 = float(input("Digite a nota1: "))
-    nota2 = float(input("Digite a nota2: "))
-    media = (nota1 + nota2) / 2
-    vetorMedia.append(media)
-
-print(f"Médias: {vetorMedia}")
-
-for i in vetorMedia:
-    if i >= 7:
-        qtdMaiorMedia +=1 
-
-print(f"Número de estudantes com média >= 7: {qtdMaiorMedia}")
+nova_frase = frase.replace(palavra_existente, outra_palavra)
+print(nova_frase.upper())
