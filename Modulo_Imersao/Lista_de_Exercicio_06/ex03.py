@@ -5,9 +5,8 @@
 meses_ano = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Setembro', 'Novembro', 'Dezembro']
 
 data_nasc = input("Data de nascimento (dd/mm/aaaa): ")
-split_data = data_nasc.split()
-print(split_data)
-index_mes = (split_data[2]) - 1
+split_data = data_nasc.split('/')
+index_mes = meses_ano[(int(split_data[1]) - 1)]
 
-frase_saida = f"Você nasceu em {split_data[0]} de {meses_ano[index_mes]} de {split_data[4]}"
+print(f"Você nasceu em {split_data[0]} de {index_mes} de {split_data[2]}.")
 
