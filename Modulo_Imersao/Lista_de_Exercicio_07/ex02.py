@@ -5,12 +5,15 @@ fórmula da distância Euclidiana:
 
 """
 import math
-x1 = (1.0)
-x2 = (2.0)
-y1 = (3.0)
-y2 = (4.0)
-z1 = (5.0)
-z2 = (6.0)
+x = (1.0, 2.0)
+y = (3.0, 4.0)
+z = (5.0, 6.0)
 
-d = round(math.sqrt((((x2 - x1)**2) + ((y2 - y1)**2) + ((z2 - z1)**2))))
+subX = x[0] - x[1]
+subY = y[0] - y[1]
+subZ = z[0] - z[1]
+
+d = math.sqrt((subX ** 2) + (subY**2) + (subZ  ** 2))
+
 print(d)
+

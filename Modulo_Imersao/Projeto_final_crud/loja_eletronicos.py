@@ -1,5 +1,7 @@
 from limpar_terminal import cls, voltar_menu
+import os
 
+banco = open("banco.txt", "w")
 bd = {}
 
 def linha():
@@ -31,6 +33,8 @@ def cadastro():
             preco = float(input("Informe o preço do produto: "))
             produto = [nome,descricao,qtd,preco]
             bd[codigo] = produto
+            bd_string = ",".join(bd[codigo])
+            banco.write(bd_string)
             if codigo in bd:
                 print("\nProduto cadastrado com sucesso\n")
                 tecla_digitada = int(input("\nDigite qualquer tecla para voltar ao menu ou 1 para cadastrar outro produto: "))
