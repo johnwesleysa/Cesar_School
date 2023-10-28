@@ -25,4 +25,4 @@ for cor in cores:
 if cor_encontrada:
     print(f"Valores RGB para a cor {cor_desejada}: Red={cor_encontrada[1]}, Green={cor_encontrada[2]}, Blue={cor_encontrada[3]}")
 else:
-    print(f"A cor {cor_desejada} não foi encontrada: ")
+    print(f"A cor '{cor_desejada}' não foi encontrada na lista.")
